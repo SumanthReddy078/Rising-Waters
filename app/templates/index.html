@@ -1,0 +1,272 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- ================= Hero Section ================= -->
+
+<section class="hero-section py-5">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 text-center">
+
+                <span class="badge bg-primary px-3 py-2 mb-3">
+
+                    AI Powered Disaster Management
+
+                </span>
+
+                <h1 class="display-4 fw-bold mb-3">
+
+                    🌊 Rising Waters
+
+                </h1>
+
+                <h3 class="text-primary mb-4">
+
+                    Machine Learning Flood Prediction System
+
+                </h3>
+
+                <p class="lead text-muted mb-4">
+
+                    Predict flood risks using Machine Learning models trained on
+                    historical rainfall and weather parameters.
+                    The system provides quick and reliable predictions to
+                    support disaster management and early warning decisions.
+
+                </p>
+
+                <a href="{{ url_for('predict_page') }}"
+                   class="btn btn-primary btn-lg px-4">
+
+                    <i class="fa-solid fa-water me-2"></i>
+
+                    Start Prediction
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= Features ================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">
+
+            Key Features
+
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="feature-card h-100">
+
+                    <i class="fa-solid fa-brain feature-icon"></i>
+
+                    <h5 class="mt-3">
+
+                        Machine Learning
+
+                    </h5>
+
+                    <p>
+
+                        Uses Decision Tree, Random Forest,
+                        KNN and XGBoost algorithms.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="feature-card h-100">
+
+                    <i class="fa-solid fa-cloud-rain feature-icon"></i>
+
+                    <h5 class="mt-3">
+
+                        Weather Analysis
+
+                    </h5>
+
+                    <p>
+
+                        Predicts flood risk using rainfall,
+                        humidity and cloud cover information.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="feature-card h-100">
+
+                    <i class="fa-solid fa-bolt feature-icon"></i>
+
+                    <h5 class="mt-3">
+
+                        Instant Prediction
+
+                    </h5>
+
+                    <p>
+
+                        Get immediate flood prediction
+                        from weather parameters.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="feature-card h-100">
+
+                    <i class="fa-solid fa-shield-halved feature-icon"></i>
+
+                    <h5 class="mt-3">
+
+                        Disaster Preparedness
+
+                    </h5>
+
+                    <p>
+
+                        Supports authorities with
+                        early warning and planning.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= About Project ================= -->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-10">
+
+                <div class="card shadow-sm border-0">
+
+                    <div class="card-body p-5">
+
+                        <h2 class="fw-bold mb-4 text-center">
+
+                            About the Project
+
+                        </h2>
+
+                        <p class="text-muted">
+
+                            <strong>Rising Waters</strong> is an Artificial Intelligence
+                            based Flood Prediction System developed using
+                            Machine Learning and Flask.
+
+                            The system analyses weather parameters such as
+                            rainfall, humidity and cloud cover to predict
+                            whether flood conditions are likely to occur.
+
+                        </p>
+
+                        <p class="text-muted mb-4">
+
+                            The application helps disaster management teams,
+                            government agencies and researchers make informed
+                            decisions by providing quick and reliable flood
+                            risk predictions.
+
+                        </p>
+
+                        <h5 class="fw-semibold mb-3">
+
+                            Technologies Used
+
+                        </h5>
+
+                        <div>
+
+                            <span class="badge bg-primary p-2 me-2 mb-2">
+
+                                Python
+
+                            </span>
+
+                            <span class="badge bg-success p-2 me-2 mb-2">
+
+                                Flask
+
+                            </span>
+
+                            <span class="badge bg-info text-dark p-2 me-2 mb-2">
+
+                                Scikit-Learn
+
+                            </span>
+
+                            <span class="badge bg-warning text-dark p-2 me-2 mb-2">
+
+                                Random Forest
+
+                            </span>
+
+                            <span class="badge bg-secondary p-2 me-2 mb-2">
+
+                                Machine Learning
+
+                            </span>
+
+                            <span class="badge bg-dark p-2 me-2 mb-2">
+
+                                Bootstrap 5
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

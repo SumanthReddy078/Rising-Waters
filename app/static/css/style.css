@@ -1,0 +1,271 @@
+/* ==========================================================
+   Rising Waters - AI Flood Prediction System
+========================================================== */
+
+/* Google Font */
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#1e293b;
+    line-height:1.6;
+}
+
+/* ==========================================================
+   Navbar
+========================================================== */
+
+.navbar{
+    background:linear-gradient(90deg,#2563eb,#1d4ed8);
+}
+
+.navbar-brand{
+    font-size:1.4rem;
+    font-weight:700;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:15px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#dbeafe !important;
+}
+
+/* ==========================================================
+   Hero Section
+========================================================== */
+
+.hero-section{
+    padding:80px 0;
+}
+
+.hero-section h1{
+    color:#0f172a;
+}
+
+.hero-section h3{
+    color:#2563eb;
+}
+
+.hero-section p{
+    color:#475569;
+}
+
+/* ==========================================================
+   Buttons
+========================================================== */
+
+.btn-primary{
+    background:#2563eb;
+    border:none;
+    border-radius:8px;
+    padding:12px 28px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+.btn-success{
+    border-radius:8px;
+}
+
+.btn-outline-secondary{
+    border-radius:8px;
+}
+
+/* ==========================================================
+   Cards
+========================================================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.card-header{
+    border:none;
+}
+
+.shadow{
+    box-shadow:0 10px 25px rgba(0,0,0,.08)!important;
+}
+
+/* ==========================================================
+   Feature Cards
+========================================================== */
+
+.feature-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    height:100%;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.feature-icon{
+
+    font-size:40px;
+
+    color:#2563eb;
+
+    margin-bottom:15px;
+
+}
+
+.feature-card h5{
+
+    font-weight:600;
+
+}
+
+.feature-card p{
+
+    color:#64748b;
+
+    font-size:.95rem;
+
+}
+
+/* ==========================================================
+   About Section
+========================================================== */
+
+.badge{
+
+    font-size:.9rem;
+
+    border-radius:20px;
+
+}
+
+/* ==========================================================
+   Forms
+========================================================== */
+
+.form-label{
+
+    font-weight:600;
+
+}
+
+.form-control{
+
+    border-radius:10px;
+
+    padding:12px;
+
+}
+
+.form-control:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 .15rem rgba(37,99,235,.25);
+
+}
+
+/* ==========================================================
+   Result Page
+========================================================== */
+
+.list-group-item{
+
+    border:none;
+
+    padding:12px 0;
+
+}
+
+/* ==========================================================
+   Footer
+========================================================== */
+
+.footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:25px 0;
+
+    margin-top:60px;
+
+}
+
+.footer p{
+
+    margin:0;
+
+}
+
+.footer small{
+
+    color:#cbd5e1;
+
+}
+
+/* ==========================================================
+   Responsive
+========================================================== */
+
+@media(max-width:768px){
+
+.hero-section{
+
+text-align:center;
+
+padding:60px 0;
+
+}
+
+.display-4{
+
+font-size:2.2rem;
+
+}
+
+.feature-card{
+
+margin-bottom:20px;
+
+}
+
+.card-body{
+
+padding:25px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-bottom:10px;
+
+}
+
+}
